@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "howareyou",
+         "patterns": ["Hii, How are you?","Hello, How are you?"],
+        "responses": ["Hii\nI'm fine, How are you?"],
+        "context_set": ""
+        },
+        {"tag": "name",
+                "patterns": ["What's your name?","Who are you?","What are you?","your name?"],
+               "responses": ["I'm DataBot, your data science query chatbot!."],
+               "context_set": ""
+        },
+        {"tag": "work",
+        "patterns": ["What do you do databot chatbot?","Why you chatbot?","How can you help me?"],
+        "responses": ["I can help you in your query about the data science industry.\n You can ask me any question regarding the data science field and I would try to find answers for it."],
+        "context_set": ""
+        },      
+        {"tag": "fine",
+                "patterns": ["I'm Fine too", "I'm Great","I'm rocking", "I'm happy"],
+               "responses": ["Amazing","Great","Wonderful", "Awesome"],
+               "context_set": ""
+               },
+        {"tag": "greeting",
+         "patterns": ["Hi",  "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello I'm DataBot!\nHow can I help you?", "Hii, I'm DataBot\nGood to see you again\nHow can I help you?", "Hi there,I'm DataBot\n How can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "DataScience",
+         "patterns": ["What is data science?", "Data Science?", "Can you tell me something about data science?","What is data science in simple words?" ],
+         "responses": ["Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data."]
+        },
+        {"tag": "WhyDataScience",
+         "patterns": ["Why Data Science?", "Why should i learn data science?", "Should I learn Data Science?" ],
+         "responses": ["I have an amazing article by Dataflair which can answer your question.\n Link to the article: https://data-flair.training/blogs/why-learn-data-science/"]
+        },
+        {"tag": "Designation",
+         "patterns": ["What can I become after learning data science?", "What are the job roles in data science?", "Jobs in data science?", "Job Designations in data science?" ],
+         "responses": ["Here are some of the job roles in Data Science: \n1. Data Analyst \n2. Data Engineers.\n3. Database Administrator.\n4. Machine Learning Engineer.\n5. Data Scientist.\n6. Data Architect.\n7. Statistician.\n8. Business Analyst.\n To know more about the above job titles and the work they do, I have an excellent article for you by Great Learning. \n\tLink to the article: https://www.mygreatlearning.com/blog/different-data-science-jobs-roles-industry/  "]
+        },
+        {"tag": "learn",
+         "patterns": ["How can I learn data science", "How to start with data science", "Roadmap of learning data science", "How to learn Data Science?"],
+         "responses":["Dataquest has an amazing article to answer your question.\n\tLink to the article: https://www.dataquest.io/blog/learn-data-science/"]
+        },
+        {"tag": "DataScienceVersus",
+         "patterns": ["What is the difference between Data Science, Machine learning, Deep Learning, Artificial Intelligence?", " ML VS DL VS AI VS DS?", "Data Science VS Machine Learning?","Data Science Vs Artificial Intelligence?" ],
+         "responses": ["I have an amazing article by Dataflair to help you with your query.\nLink to the article: https://data-flair.training/blogs/artificial-intelligence-vs-machine-learning-vs-dl-vs-ds/"],
+         "context_set": "food"
+        }
+        
+   ]
+}
